@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>main.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #808080;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+.s3 { color: #6897bb;}
+.s4 { color: #cc7832;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+main.py</font>
+</center></td></tr></table>
+<pre><span class="s0"># 1) Создать переменную типа String</span>
+<span class="s1">name = </span><span class="s2">'Panda'</span>
+<span class="s0"># 2) Создать переменную типа Integer</span>
+<span class="s1">paws = </span><span class="s3">4</span>
+<span class="s0"># 3) Создать переменную типа Float</span>
+<span class="s1">age = </span><span class="s3">6.5</span>
+<span class="s0"># 4) Создать переменную типа Bytes</span>
+<span class="s1">fur = bytes(</span><span class="s3">0</span><span class="s1">)</span>
+<span class="s0"># 5) Создать переменную типа List</span>
+<span class="s1">vaccine = [</span><span class="s2">'annually'</span><span class="s4">, </span><span class="s2">&quot;17/10&quot;</span><span class="s4">, </span><span class="s3">2</span><span class="s4">, True</span><span class="s1">]</span>
+<span class="s0"># 6) Создать переменную типа Tuple</span>
+<span class="s1">birthday = (</span><span class="s2">'02.06'</span><span class="s4">, </span><span class="s3">6</span><span class="s1">)</span>
+<span class="s0"># 7) Создать переменную типа Set</span>
+<span class="s1">Panda_data = {</span><span class="s2">'name_Panda'</span><span class="s4">, </span><span class="s2">'age_6.5'</span><span class="s4">, </span><span class="s2">'paws_4'</span><span class="s1">}</span>
+<span class="s0"># 8. Создать переменную типа Frozen set</span>
+<span class="s1">Panda_family = frozenset([</span><span class="s2">'cat_Hankey'</span><span class="s4">, </span><span class="s2">'man_Kostya'</span><span class="s4">, </span><span class="s2">'women_Rezeda'</span><span class="s1">])</span>
+<span class="s0"># 9) Создать переменную типа Dict</span>
+<span class="s1">Panda_friends = {</span><span class="s2">'cat'</span><span class="s1">: </span><span class="s2">'Hankey'</span><span class="s4">,</span>
+                 <span class="s2">'man'</span><span class="s1">: </span><span class="s2">'Kostya'</span><span class="s4">,</span>
+                 <span class="s2">'dog'</span><span class="s1">: </span><span class="s2">'Kai'</span><span class="s1">}</span>
+<span class="s0"># 10) Вывести в консоль все выше перечисленные переменные с добавлением типа данных.</span>
+<span class="s1">print(type(name)</span><span class="s4">, </span><span class="s1">name</span><span class="s4">, </span><span class="s1">type(paws)</span><span class="s4">, </span><span class="s1">paws</span><span class="s4">, </span><span class="s1">type(age)</span><span class="s4">, </span><span class="s1">age</span><span class="s4">, </span><span class="s1">type(fur)</span><span class="s4">, </span><span class="s1">fur</span><span class="s4">, </span><span class="s1">type(vaccine)</span><span class="s4">, </span><span class="s1">vaccine</span><span class="s4">, </span><span class="s1">type(birthday)</span><span class="s4">, </span><span class="s1">birthday</span><span class="s4">, </span><span class="s1">type(Panda_data)</span><span class="s4">, </span><span class="s1">Panda_data</span><span class="s4">, </span><span class="s1">type(Panda_family)</span><span class="s4">, </span><span class="s1">Panda_family</span><span class="s4">, </span><span class="s1">type(Panda_friends)</span><span class="s4">, </span><span class="s1">Panda_friends)</span>
+<span class="s0"># 11) Создать 2 переменные String, создать переменную в которой сканкатенируете эти переменные. Вывести в консоль.</span>
+<span class="s1">dog = </span><span class="s2">'Panda'</span>
+<span class="s1">cat = </span><span class="s2">'Mr.Hankey'</span>
+<span class="s1">pets = {dog</span><span class="s4">, </span><span class="s1">cat}</span>
+<span class="s1">print(</span><span class="s2">'pets: '</span><span class="s4">, </span><span class="s1">pets)</span>
+<span class="s0"># 12) Вывести в одну строку переменные типа String и Integer используя “,” (Запятую)</span>
+<span class="s1">print(name</span><span class="s4">, </span><span class="s1">age</span><span class="s4">, </span><span class="s1">sep=</span><span class="s2">' '</span><span class="s1">)</span>
+<span class="s0"># 13) Вывести в одну строку переменные типа String и Integer используя “+” (Плюс)</span>
+<span class="s1">print(name + </span><span class="s2">' ' </span><span class="s1">+ str(age))</span></pre>
+</body>
+</html>
